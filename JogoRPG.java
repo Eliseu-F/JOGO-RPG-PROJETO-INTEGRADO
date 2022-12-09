@@ -35,7 +35,7 @@ public class JogoRPG {
             System.out.println("== 1 - Instruções                                     ==");
             System.out.println("== 2 - Jogar                                          ==");
             System.out.println("== 3 - Creditos                                       ==");
-            System.out.println("== 0 - Sair                                           ==");
+            System.out.println("== 4 - Sair                                           ==");
             System.out.println("========================================================");
             op = keyboard.nextInt();
             //Chama uma função com a escolha de uma opção do switch case
@@ -99,10 +99,8 @@ public class JogoRPG {
         Scanner keyboard = new Scanner(System.in);
         int opc;
         System.out.println("=== CRIADO POR: ===");
-        System.out.println("Eliseu Ferreira");
-        System.out.println("Alexsandro ");
-        System.out.println("Mateus");
-        System.out.println("Guilherme");
+        System.out.println("Eliseu");
+        
         do {
             System.out.println("\n Aperte 0 para voltar ao Menu");
             opc = keyboard.nextInt();
@@ -148,7 +146,7 @@ public class JogoRPG {
 
                 break;
             default:
-
+                System.out.println("GAME OVER!!")
                 break;
         }
         return tent;
